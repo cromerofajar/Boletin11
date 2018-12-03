@@ -14,7 +14,6 @@ public class Instante {
         long inicio, fin,iniciar;
         String fraseEscribir, fraseEscrita;
         iniciar=JOptionPane.showOptionDialog(null,"DESEA INICIAR EL PROGRAMA?" ,null,JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE,null,null,null);
-        System.out.println(iniciar);
         while(iniciar<1){
         fraseEscribir="A documentación é todo aquel conxunto de manuais impresos ou en formato dixital que explique unha aplicación informática.";
         inicio=System.currentTimeMillis();
